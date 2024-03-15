@@ -30,6 +30,7 @@ C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\WebApi.AssemblyInf
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\WebApi.csproj.CoreCompileInputs.cache
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\apps\Todo Management System\server\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props

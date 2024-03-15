@@ -8,6 +8,7 @@ C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.G
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.sourcelink.json
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\Application.dll
 C:\apps\Todo Management System\server\Application\obj\Debug\net8.0\refint\Application.dll

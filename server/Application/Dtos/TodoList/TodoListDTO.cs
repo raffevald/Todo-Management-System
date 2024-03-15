@@ -2,8 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Application.Dtos.TodoList {
-    public class TodoListDTO
-    {
+    public class TodoListDTO {
         public int Id { get; set; }
 
         public int? TodoGroupId { get; set; }

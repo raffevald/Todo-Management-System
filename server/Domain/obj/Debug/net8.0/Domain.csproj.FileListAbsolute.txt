@@ -5,6 +5,7 @@ C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.GeneratedMS
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.dll
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\apps\Todo Management System\server\Domain\obj\Debug\net8.0\Domain.pdb

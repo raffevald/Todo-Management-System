@@ -10,20 +10,22 @@ namespace Application.Services {
 
         public ITodoGroupsServices TodoGroupsServices { get; }
         public ITodoListsServices TodoListsServices { get; }
+        public ITodosServices TodosServices { get; }
 
         public DataService (
             IUnitOfWork unitOfWork,
             IMapper mapper,
 
             IRepository<TodoGroup> TodoGroupsRepository,
-            IRepository<TodoList> TodoListsRepository
-
+            IRepository<TodoList> TodoListsRepository,
+            IRepository<Todo> TodosRepository
         ) {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
 
             TodoGroupsServices = new TodoGroupsServices ( _unitOfWork, _mapper, TodoGroupsRepository);
             TodoListsServices = new TodoListsServices ( _unitOfWork, _mapper, TodoListsRepository );
+            TodosServices = new TodosServices ( _unitOfWork, _mapper, TodosRepository );
         }
     }
 }
