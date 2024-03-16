@@ -1,3 +1,4 @@
+using NToastNotify;
 using WebApp.ServiceInterfaces;
 using WebApp.Services;
 
@@ -9,6 +10,11 @@ var mvcBuilder = builder.Services.AddRazorPages();
 //#if DEBULG
 //    mvcBuilder.AddRazorRuntimeCompilation();
 //#endif
+
+builder.Services.AddRazorPages ().AddNToastNotifyToastr ( new ToastrOptions () {
+    ProgressBar = true,
+    PositionClass = ToastPositions.TopRight
+} );
 
 builder.Services.AddHttpClient ("WebApiClient", ( HttpClient) => {
     HttpClient.BaseAddress = new Uri ( builder.Configuration["ApiBaseUrl"]! );
@@ -29,6 +35,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+//Use NToastNotify
+app.UseNToastNotify ();
 
 app.UseRouting();
 

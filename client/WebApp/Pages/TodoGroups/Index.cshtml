@@ -1,0 +1,77 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Todo Groups";
+}
+
+<section class="content pt-3 pb-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="ion ion-clipboard mr-1"></i>
+                            Todo Groups
+                        </h3>
+
+                        <div class="card-tools w-50">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control form-control-navbar " placeholder="Énter name" />
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary"><i class="fas fa-plus"></i> Add new</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <ul class="todo-list" data-widget="todo-list">
+                            @if ( Model.ViewModels?.Count > 0 ) {
+                                @foreach ( var item in Model.ViewModels ) {
+                                    <li>
+                                        <span id="@($"spanGroupName_{item.Id}")" class="text"> @item.GroupName </span>
+                                        <input id="@($"inputGroupName_{item.Id}")" type="text" class="form-control form-control-navbar w-50 d-none " value="@item.GroupName" />
+
+                                        <div class="tools">
+                                            <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')"> <i class="fas fa-edit"></i> </button>
+                                            <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')"> <i class="fas fa-trash"></i> </button>
+                                            <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="Save('@item.Id')"> <i class="fas fa-save"></i> </button>
+                                            <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')"> <i class="fas fa-times"></i> </button>
+                                        </div>
+                                    </li>
+                                }
+                            } else {
+                                <p> Record not found </p>
+                            }
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script type="text/javascript">
+        function Edit( id ) {
+            $('#spanGroupName_' + id).removeClass('d-inline').addClass('d-none');
+            $('#buttonEdit_' + id).removeClass('d-inline').addClass('d-none');
+            $('#buttonDelete_' + id).removeClass('d-inline').addClass('d-none');
+            $('#inputGroupName_' + id).removeClass('d-none').addClass('d-inline');
+            $('#buttonSave_' + id).removeClass('d-none').addClass('d-inline');
+            $('#buttonCancel_' + id).removeClass('d-none').addClass('d-inline');
+        };
+
+        function Cancel(id) {
+            $('#spanGroupName_' + id).removeClass('d-none').addClass('d-inline');
+            $('#buttonEdit_' + id).removeClass('d-none').addClass('d-inline');
+            $('#buttonDelete_' + id).removeClass('d-none').addClass('d-inline');
+            $('#inputGroupName_' + id).removeClass('d-inline').addClass('d-none');
+            $('#buttonSave_' + id).removeClass('d-inline').addClass('d-none');
+            $('#buttonCancel_' + id).removeClass('d-inline').addClass('d-none');
+        };
+
+    </script>
+}

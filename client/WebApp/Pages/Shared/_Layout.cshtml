@@ -61,11 +61,12 @@
 
                         <li class="nav-header"> TODO MENU ITENS </li>
                         <li class="nav-item">
-                            <a asp-page="/TodoGroups" class="nav-link">
+                            <a asp-page="/TodoGroups/Index" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p> Todo Groups </p>
                             </a>
                         </li>
+
                         <li class="nav-item">
                             <a asp-page="/TodoLists" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
@@ -101,6 +102,7 @@
     <script src="~/js/adminlte.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
+    @* @await Component.InvokeAsync ( "NToastNotify" ) *@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
