@@ -5,6 +5,6 @@
         public string ListName { get; set; }
         public DateTime CreateOn { get; set; }
 
-        public TodoGroup TodoGroup { get; set; }
+        public virtual TodoGroup TodoGroup { get; set; }
     }
 }

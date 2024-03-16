@@ -20,6 +20,11 @@ namespace Infrastructure.EntitiesConfiguration {
                 .HasMaxLength ( 128 )
                 .HasColumnName ( "list_name" );
             entity.Property ( e => e.CreateOn ).HasColumnName ( "create_on" );
+
+            // entity.HasOne ( e => e.TodoGroupId ).WithOne ( p => p.FkEmployeeNavigation )
+            //     .HasForeignKey<Employee> ( d => d.FkPerson )
+            //     .OnDelete ( DeleteBehavior.ClientSetNull )
+            //     .HasConstraintName ( "employee_fk_person_fkey" );
         }
     }
 }

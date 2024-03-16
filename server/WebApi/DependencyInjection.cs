@@ -17,6 +17,7 @@ namespace WebApi {
 
             AppContext.SetSwitch ( "Npgsql.EnableLegacyTimestampBehavior", true );
             services.AddDbContext<ApplicationDbContext> ( options => {
+                options.UseLazyLoadingProxies( true );
                 options.UseNpgsql ( ConnectionString );
             } );
 
