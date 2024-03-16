@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApp</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/css/adminlte.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed dark-mode">
+    <div class="wrapper">
+        <nav class="main-header navbar navbar-expand navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <a asp-page="/Index" class="brand-link">
+                @* <img src="../../dist/img/AdminLTELogo.png" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> *@
+                <span class="brand-text font-weight-light"> Todo MS </span>
+            </a>
+
+            <div class="sidebar">
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                        <li class="nav-header"> TODO PAGES </li>
+                        <li class="nav-item">
+                            <a asp-page="/Todos" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> All todos </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/TodosDueToday" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> Due today </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/TodosCompleted" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> Completed </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/TodosImportant" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> Important </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-header"> TODO MENU ITENS </li>
+                        <li class="nav-item">
+                            <a asp-page="/TodoGroups" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> Todo Groups </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/TodoLists" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p> Todo Lists </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-page="/Todos" class="nav-link">
+                                <i class="fas fa-circle nav-icon"></i>
+                                <p>Todos </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <div class="content-wrapper">
+            @RenderBody()
+        </div>
+
+        <footer class="main-footer">
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 3.2.0
+            </div>
+            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+
+    <script src="~/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="~/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/adminlte.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

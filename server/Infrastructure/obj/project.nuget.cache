@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OzScOrzR5nyfnoARIU4Xpcx7kXJPfpqnYrWrjZQuJdIgQFC/P9RvGjnOrfmG3scs+5VSmba7NBii5qdgzhgejg==",
+  "dgSpecHash": "NQ1wcrxQ72Z6pz8/qy1DOARYJNuMigonpnKxTxqepxJUIx62yyESvNOUzjJFdV+zthHvjlYDgV+jl16b1Qp7Ew==",
   "success": true,
-  "projectFilePath": "C:\\apps\\Todo Management System\\server\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\apps\\Todo-Management-System\\server\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafae\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

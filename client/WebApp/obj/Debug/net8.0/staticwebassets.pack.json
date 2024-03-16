@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

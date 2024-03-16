@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V0D9gNN+uQugQIYxHZ837UntkgOP0ZvFn1QOqtMDWc0ey3yCegGH9yqQJUhyM4t2N847QK0KhBHAlzPIe4ktsQ==",
+  "dgSpecHash": "metEiT9PlQztf+A5hqBI8PHI+0zCM2i8x5exoyuujv0gAzUbWCBhZbysV3KVpzbocqEAGEHrrIsHKpgPT8oIzA==",
   "success": true,
-  "projectFilePath": "C:\\apps\\Todo Management System\\server\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\apps\\Todo-Management-System\\server\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

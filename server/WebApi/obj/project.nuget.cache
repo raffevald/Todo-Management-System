@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EohEwHIuwLmGOqlV+dfpWtnuD0kiSNTwYSopdy8CkpxneuDmb4l6njmeIjhZBRpWJ2UbNsfq/TAoEl1lCFZ2MA==",
+  "dgSpecHash": "ft87Mp9nIXzh9wnaR/65VDQcabDIbmXIBVNuolFrT6HxcF95OCFZYPikRSaY7rXV/MEDKsAw8W3yOZdeqNS8kg==",
   "success": true,
-  "projectFilePath": "C:\\apps\\Todo Management System\\server\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\apps\\Todo-Management-System\\server\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafae\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

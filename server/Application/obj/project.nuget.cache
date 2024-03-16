@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1R9vu0XTfyAs3g66XeNHUsAznmjVBCupanL3bP4H9MJYDd7csSJrZwVUHi1h1Z2M+iGeIqDK2ToY48SBJlJmA==",
+  "dgSpecHash": "i5YLjb/aTcm5XBpqDtoTBVFZPnYCF4Fq7au2IWUclJ2jAFdMU/aLp7DfICfPFviu3dsVJogmbLshT2jrmvkL2w==",
   "success": true,
-  "projectFilePath": "C:\\apps\\Todo Management System\\server\\Application\\Application.csproj",
+  "projectFilePath": "C:\\apps\\Todo-Management-System\\server\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafae\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
