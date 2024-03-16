@@ -17,9 +17,9 @@
 
                         <div class="card-tools w-50">
                             <div class="input-group input-group-sm">
-                                <input type="text" class="form-control form-control-navbar " placeholder="Énter name" />
+                                <input id="inputAddNewTodoGroupName" type="text" class="form-control form-control-navbar " placeholder="Énter name" />
                                 <div class="input-group-append">
-                                    <button type="button" class="btn btn-primary"><i class="fas fa-plus"></i> Add new</button>
+                                    <button onclick="AddNew()" type="button" class="btn btn-primary"><i class="fas fa-plus"></i> Add new</button>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                                         <div class="tools">
                                             <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')"> <i class="fas fa-edit"></i> </button>
                                             <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')"> <i class="fas fa-trash"></i> </button>
-                                            <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="Save('@item.Id')"> <i class="fas fa-save"></i> </button>
+                                            <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="SaveUpdate('@item.Id')"> <i class="fas fa-save"></i> </button>
                                             <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')"> <i class="fas fa-times"></i> </button>
                                         </div>
                                     </li>
@@ -55,6 +55,18 @@
 
 @section Scripts {
     <script type="text/javascript">
+        function AddNew() {
+            let newTodoGroupName = $('#inputAddNewTodoGroupName').val();
+
+            if (newTodoGroupName !== '') {
+                $.get('?handler=AddNew', { groupName: newTodoGroupName })
+                    .done(function (data) {
+                        $('#inputAddNewTodoGroupName').val('');
+                        window.location.reload();
+                    });
+            };
+        };
+
         function Edit( id ) {
             $('#spanGroupName_' + id).removeClass('d-inline').addClass('d-none');
             $('#buttonEdit_' + id).removeClass('d-inline').addClass('d-none');
@@ -71,6 +83,17 @@
             $('#inputGroupName_' + id).removeClass('d-inline').addClass('d-none');
             $('#buttonSave_' + id).removeClass('d-inline').addClass('d-none');
             $('#buttonCancel_' + id).removeClass('d-inline').addClass('d-none');
+        };
+
+        function SaveUpdate(id) {
+            let newTodoGroupName = $('#inputGroupName_' + id).val();
+
+            if (newTodoGroupName !== '') {
+                $.get('?handler=AddUpdate', { id: id, groupName: newTodoGroupName })
+                    .done(function (data) {
+                        window.location.reload();
+                    });
+            };
         };
 
     </script>

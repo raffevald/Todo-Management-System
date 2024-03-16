@@ -1,5 +1,6 @@
 using Application.Dtos.TodoGroup;
 using Application.ViewModels;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
@@ -20,15 +21,14 @@ public class IndexModel : PageModel
 
     public List<TodoGroupViewModel>? ViewModels { get; set; }
 
-    public async Task<IActionResult> OnGet()
-    {
+    public async Task<IActionResult> OnGet() {
         var apiResponse = await _dataService.TodoGroupsService.Get();
         var message = "Could not get response from API";
 
         if ( apiResponse != null ) {
             if ( apiResponse.StatusCode == 200) {
                 ViewModels = apiResponse.Data != null
-                    ? JsonConvert.DeserializeObject<List<TodoGroupViewModel>> ( apiResponse.Data.ToString () )
+                    ? JsonConvert.DeserializeObject<List<TodoGroupViewModel>> ( apiResponse.Data.ToString ()! )
                     : null;
                 message = $"Message: {apiResponse.Message} <br/> Description: {apiResponse.Description}";
                 _toastr.AddSuccessToastMessage ( message );
@@ -41,5 +41,52 @@ public class IndexModel : PageModel
         }
 
         return Page ();
+    }
+
+    public async Task<IActionResult> OnGetAddNew ( string groupName ) {
+        var modelDto = new TodoGroupDTO { 
+            GroupName = groupName,
+            CreateOn = DateTime.Now
+        };
+
+        var apiResponse = await _dataService.TodoGroupsService.Post( modelDto );
+        var message = "Could not get response from API";
+
+        if ( apiResponse != null ) {
+            if ( apiResponse.StatusCode == 200 ) {
+                var createDto = apiResponse.Data != null
+                    ? JsonConvert.DeserializeObject<TodoGroupDTO> ( apiResponse.Data.ToString ()! )
+                    : null;
+                message = $"Message: {apiResponse.Message} <br/> Description: {apiResponse.Description}";
+            } else {
+                message = $"Title: {apiResponse.Title} <br/> Message: {apiResponse.Message}";
+            }
+        }
+
+        return new JsonResult(message);
+    }
+
+    public async Task<IActionResult> OnGetAddUpdate ( int id, string groupName ) {
+        var modelDto = new TodoGroupDTO
+        {
+            Id = id,
+            GroupName = groupName,
+        };
+
+        var apiResponse = await _dataService.TodoGroupsService.Put( id, modelDto );
+        var message = "Could not get response from API";
+
+        if ( apiResponse != null ) {
+            if ( apiResponse.StatusCode == 200 ) {
+                var updateDto = apiResponse.Data != null
+                    ? JsonConvert.DeserializeObject<TodoGroupDTO> ( apiResponse.Data.ToString ()! )
+                    : null;
+                message = $"Message: {apiResponse.Message} <br/> Description: {apiResponse.Description}";
+            } else {
+                message = $"Title: {apiResponse.Title} <br/> Message: {apiResponse.Message}";
+            }
+        }
+
+        return new JsonResult ( message );
     }
 }
