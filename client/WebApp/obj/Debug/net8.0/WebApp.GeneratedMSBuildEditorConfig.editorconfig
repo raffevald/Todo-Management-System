@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\apps\Todo-Management-System\client\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/apps/Todo-Management-System/client/WebApp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[C:/apps/Todo-Management-System/client/WebApp/Pages/Erros/Exception.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3NcRXhjZXB0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/apps/Todo-Management-System/client/WebApp/Pages/Erros/InternalServerError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3NcSW50ZXJuYWxTZXJ2ZXJFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/apps/Todo-Management-System/client/WebApp/Pages/Erros/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3NcTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/apps/Todo-Management-System/client/WebApp/Pages/Index.cshtml]

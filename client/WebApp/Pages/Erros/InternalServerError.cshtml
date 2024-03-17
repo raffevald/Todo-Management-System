@@ -1,0 +1,17 @@
+﻿@page
+@{
+    ViewData ["Title"] = " 500 - Internal Server Error";
+}
+
+<section class="content">
+    <div class="error-page">
+        <h2 class="text-danger"> 500 - Internal Server Error </h2>
+        <div class="error-content">
+            <h3> <i class="fas fa-exclamation-triangle text-danger"></i> Ops! Something went wrong </h3>
+            <p> The technical team has been ifnformed and the error will be rectified soon </p>
+            <p>
+                Meanwhile, you may <a asp-page="/Index"> return to dashboard </a>
+            </p>
+        </div>
+    </div>
+</section>

@@ -34,10 +34,10 @@
                                         <input id="@($"inputGroupName_{item.Id}")" type="text" class="form-control form-control-navbar w-50 d-none " value="@item.GroupName" />
 
                                         <div class="tools">
-                                            <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')"> <i class="fas fa-edit"></i> </button>
-                                            <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')"> <i class="fas fa-trash"></i> </button>
-                                            <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="SaveUpdate('@item.Id')"> <i class="fas fa-save"></i> </button>
-                                            <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')"> <i class="fas fa-times"></i> </button>
+                                            <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')" data-bs-title="Edit" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-edit"></i> </button>
+                                            <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')" data-bs-title="Delete" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-trash"></i> </button>
+                                            <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="SaveUpdate('@item.Id')" data-bs-title="Save" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-save"></i> </button>
+                                            <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')" data-bs-title="Cancel" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-times"></i> </button>
                                         </div>
                                     </li>
                                 }

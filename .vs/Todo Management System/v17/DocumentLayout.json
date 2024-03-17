@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\apps\\Todo-Management-System\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|c:\\apps\\todo-management-system\\client\\webapp\\pages\\todogroups\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|solutionrelative:client\\webapp\\pages\\todogroups\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|c:\\apps\\todo-management-system\\client\\webapp\\services\\todogroupsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|solutionrelative:client\\webapp\\services\\todogroupsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|c:\\apps\\todo-management-system\\client\\webapp\\pages\\todogroups\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{193E1335-0CA1-4505-B7EC-7A4A127D419E}|client\\WebApp\\WebApp.csproj|solutionrelative:client\\webapp\\pages\\todogroups\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoGroupsService.cs",
-              "DocumentMoniker": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Services\\TodoGroupsService.cs",
-              "RelativeDocumentMoniker": "client\\WebApp\\Services\\TodoGroupsService.cs",
-              "ToolTip": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Services\\TodoGroupsService.cs",
-              "RelativeToolTip": "client\\WebApp\\Services\\TodoGroupsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T01:03:37.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Pages\\TodoGroups\\Index.cshtml",
-              "RelativeDocumentMoniker": "client\\WebApp\\Pages\\TodoGroups\\Index.cshtml",
-              "ToolTip": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Pages\\TodoGroups\\Index.cshtml",
-              "RelativeToolTip": "client\\WebApp\\Pages\\TodoGroups\\Index.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAYwGsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T00:55:57.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Pages\\TodoGroups\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "client\\WebApp\\Pages\\TodoGroups\\Index.cshtml.cs",
-              "ToolTip": "C:\\apps\\Todo-Management-System\\client\\WebApp\\Pages\\TodoGroups\\Index.cshtml.cs",
-              "RelativeToolTip": "client\\WebApp\\Pages\\TodoGroups\\Index.cshtml.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwGcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T00:51:55.915Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
