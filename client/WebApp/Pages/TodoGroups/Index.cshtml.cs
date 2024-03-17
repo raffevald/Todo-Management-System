@@ -1,4 +1,5 @@
 using Application.Dtos.TodoGroup;
+using Application.Helpers;
 using Application.ViewModels;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -80,6 +81,24 @@ public class IndexModel : PageModel
             if ( apiResponse.StatusCode == 200 ) {
                 var updateDto = apiResponse.Data != null
                     ? JsonConvert.DeserializeObject<TodoGroupDTO> ( apiResponse.Data.ToString ()! )
+                    : null;
+                message = $"Message: {apiResponse.Message} <br/> Description: {apiResponse.Description}";
+            } else {
+                message = $"Title: {apiResponse.Title} <br/> Message: {apiResponse.Message}";
+            }
+        }
+
+        return new JsonResult ( message );
+    }
+
+    public async Task<IActionResult> OnGetDelete ( int id ) {
+        var apiResponse = await _dataService.TodoGroupsService.Delete( id );
+        var message = "Could not get response from API";
+
+        if ( apiResponse != null ) {
+            if ( apiResponse.StatusCode == 200 ) {
+                var rwosAfected = apiResponse.Data != null
+                    ? JsonConvert.DeserializeObject<ApiResnpose> ( apiResponse.ToString ()! )
                     : null;
                 message = $"Message: {apiResponse.Message} <br/> Description: {apiResponse.Description}";
             } else {

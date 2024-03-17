@@ -96,5 +96,12 @@
             };
         };
 
+        function Delete(id) {
+            $.get('?handler=Delete', { id: id })
+                .done(function (data) {
+                    window.location.reload();
+                });
+        };
+
     </script>
 }
