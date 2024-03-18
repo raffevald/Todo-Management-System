@@ -25,5 +25,23 @@ namespace Application.Services {
             var viewModel = _mapper.Map<TodoViewModel>(matchinhModel);
             return viewModel;
         }
+
+        public async Task<TodoViewModel> ChangeCompletedOrNot ( int id, bool isCompleted ) {
+            if ( id <= 0 ) return default;
+
+            var model = await _repository.Get( id );
+            if ( model == null ) return default;
+
+            model.Completed = isCompleted;
+
+            _unitOfWork.TodosRepository
+                .ChangeCompletedOrNot ( model );
+
+            var rowsAffected = await _unitOfWork.SaveChanges();
+            if ( rowsAffected <= 0 ) return default;
+
+            var updateDto = _mapper.Map<TodoViewModel>( model );
+            return updateDto;
+        }
     }
 }

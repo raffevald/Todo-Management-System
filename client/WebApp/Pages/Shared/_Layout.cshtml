@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="~/css/adminlte.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
@@ -41,7 +42,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a asp-page="/TodosDueToday" class="nav-link">
+                            <a asp-page="/Todos/DueToday" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p> Due today </p>
                             </a>
@@ -68,13 +69,14 @@
                         </li>
 
                         <li class="nav-item">
-                            <a asp-page="/TodoLists" class="nav-link">
+                            <a asp-page="/TodoLists/Index" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p> Todo Lists </p>
                             </a>
                         </li>
+
                         <li class="nav-item">
-                            <a asp-page="/Todos" class="nav-link">
+                            <a asp-page="/Todos/Index" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p>Todos </p>
                             </a>

@@ -49,6 +49,14 @@
       "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
     },
     {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\custom\\TodoGroups.js",
+      "PackagePath": "staticwebassets\\js\\custom\\TodoGroups.js"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\custom\\TodosIndex.js",
+      "PackagePath": "staticwebassets\\js\\custom\\TodosIndex.js"
+    },
+    {
       "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -349,6 +357,18 @@
       "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
     },
     {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\icheck-bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
+    },
+    {
       "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\plugins\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -395,6 +415,22 @@
     {
       "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\plugins\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\apps\\Todo-Management-System\\client\\WebApp\\wwwroot\\plugins\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\plugins\\toastr\\toastr.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -4,6 +4,7 @@ namespace WebApp.Services {
     public class DataService : IDataService {
 
         public ITodoGroupsService TodoGroupsService { get; }
+        public ITodosService TodosService { get; }
 
 
         private readonly IHttpClientService _httpClientService;
@@ -12,7 +13,7 @@ namespace WebApp.Services {
             _httpClientService = httpClientService;
 
             TodoGroupsService = new TodoGroupsService(_httpClientService);
+            TodosService = new TodosService ( _httpClientService );
         }
-
     }
 }

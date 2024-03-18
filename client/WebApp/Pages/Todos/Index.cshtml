@@ -1,0 +1,90 @@
+﻿@page
+@model WebApp.Pages.Todos.IndexModel
+@{
+    ViewData ["Title"] = "Todos";
+}
+
+<section class="content pt-3 pb-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="ion ion-clipboard mr-1"></i>
+                            Todos
+                        </h3>
+
+                        <div class="card-tools w-50">
+                            <div class="input-group input-group-sm">
+                                <input id="inputAddNewTodoGroupName" type="text" class="form-control form-control-navbar " placeholder="Énter name" />
+                                <div class="input-group-append">
+                                    <button onclick="AddNew()" type="button" class="btn btn-primary"><i class="fas fa-plus"></i> Add new</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <ul class="todo-list" data-widget="todo-list">
+                            @if ( Model.ViewModels?.Count > 0 ) {
+                                @foreach ( var item in Model.ViewModels ) {
+                                    @if ( item.Completed == true ) {
+                                        <li>
+                                            <div onclick="HandleCompleted('@item.Id', '@item.Completed')" class="icheck-primary d-inline ml-2">
+                                                <input type="checkbox" value="" name="" id="@($"todoCheck{item.Id}")" checked>
+                                                <label for="@($"todoCheck{item.Id}")"></label>
+                                            </div>
+
+                                            <span id="@($"spanGroupName_{item.Id}")" class="text"> @item.TodoItem </span>
+                                            <input id="@($"inputGroupName_{item.Id}")" type="text" class="form-control form-control-navbar w-50 d-none " value="@item.TodoItem" />
+
+                                            @if ( item.Important == true ) {
+                                                <small class="badge badge-success"><i class="far fa-clock"></i> Important </small>
+                                            }
+
+                                            <div class="tools">
+                                                <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')" data-bs-title="Edit" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-edit"></i> </button>
+                                                <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')" data-bs-title="Delete" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-trash"></i> </button>
+                                                <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="SaveUpdate('@item.Id')" data-bs-title="Save" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-save"></i> </button>
+                                                <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')" data-bs-title="Cancel" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-times"></i> </button>
+                                            </div>
+                                        </li>
+                                    } else {
+                                        <li>
+                                            <div onclick="HandleCompleted('@item.Id', '@item.Completed')" class="icheck-primary d-inline ml-2">
+                                                <input type="checkbox" value="" name="" id="@($"todoCheck{item.Id}")">
+                                                <label for="@($"todoCheck{item.Id}")"></label>
+                                            </div>
+
+                                            <span id="@($"spanGroupName_{item.Id}")" class="text"> @item.TodoItem </span>
+                                            <input id="@($"inputGroupName_{item.Id}")" type="text" class="form-control form-control-navbar w-50 d-none " value="@item.TodoItem" />
+
+                                            @if( item.Important == true ) {
+                                                <small class="badge badge-success"><i class="far fa-clock"></i> Important </small>
+                                            }
+
+                                            <div class="tools">
+                                                <button id="@($"buttonEdit_{item.Id}")" type="button" class="btn btn-warning btn-sm" onclick="Edit('@item.Id')" data-bs-title="Edit" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-edit"></i> </button>
+                                                <button id="@($"buttonDelete_{item.Id}")" type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')" data-bs-title="Delete" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-trash"></i> </button>
+                                                <button id="@($"buttonSave_{item.Id}")" type="button" class="btn btn-success btn-sm d-none" onclick="SaveUpdate('@item.Id')" data-bs-title="Save" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-save"></i> </button>
+                                                <button id="@($"buttonCancel_{item.Id}")" type="button" class="btn btn-secondary btn-sm d-none" onclick="Cancel('@item.Id')" data-bs-title="Cancel" data-bs-toggle="tooltip" data-bs-placement="top"> <i class="fas fa-times"></i> </button>
+                                            </div>
+                                        </li>
+                                    }
+                                }
+                            } else {
+                                <p> Record not found </p>
+                            }
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/custom/TodosIndex.js" asp-append-version="true"></script>
+}

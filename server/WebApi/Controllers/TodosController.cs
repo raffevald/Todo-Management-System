@@ -174,6 +174,34 @@ namespace WebApi.Controllers {
             return Ok ( ApiResnposeBuilder.GenerateOk ( rowsAffected, "OK", $"Bulk delete successfull" ) );
         }
 
-    }
+        [HttpPost ( "ChangeCompletedOrNot" )]
+        public async Task<IActionResult> ChangeCompletedOrNot ( [FromBody] TodoIsCompletedDto todoIsCompletedDto ) {
+            if ( todoIsCompletedDto.Id <= 0 )
+                return BadRequest ( ApiResnposeBuilder
+                    .GenerateBadRequest ( "Change Completed Or Not failed", "Input not valid or null" ) );
 
+            if ( !ModelState.IsValid ) {
+                var erros = ModelState.GetModelStateErros();
+                if ( erros != null && erros.Count > 0 ) {
+                    var msgBuilder = new StringBuilder();
+                    foreach ( var error in erros ) {
+                        msgBuilder.AppendLine ( error.ToString () );
+
+                    }
+
+                    return BadRequest ( ApiResnposeBuilder.GenerateBadRequest ( "Update failed", msgBuilder.ToString () ) );
+                }
+            }
+
+            var updateDto = await _dataService
+                .TodosServices
+                .ChangeCompletedOrNot( todoIsCompletedDto.Id, todoIsCompletedDto.Completed );
+
+            if ( updateDto == null )
+                return BadRequest ( ApiResnposeBuilder.GenerateBadRequest ( "Update failed", "Some error occured" ) );
+
+            return Ok ( ApiResnposeBuilder.GenerateOk ( updateDto, "Update successfull", $"Record update successfull" ) );
+        }
+
+    }
 }
