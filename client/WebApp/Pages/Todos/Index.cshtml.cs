@@ -40,6 +40,10 @@ namespace WebApp.Pages.Todos
                // _toastr.AddInfoToastMessage ( message );
             }
 
+            if ( ViewModels != null ) { 
+                ViewModels = ViewModels.OrderBy ( x => x.Id ).ToList ();
+            }
+
             return Page ();
         }
 
